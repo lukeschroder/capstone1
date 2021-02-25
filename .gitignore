@@ -3,3 +3,5 @@ data/
 
 #jupyter/spark checkpoints
 notebooks/.ipynb_checkpoints
+notebooks/cs1_eda.ipynb
+notebooks/spark_eda.ipynb
