@@ -1,6 +1,9 @@
 #dataset - too large for github storage
 data/
 
+#unused src
+src/
+
 #jupyter/spark checkpoints
 notebooks/.ipynb_checkpoints
 notebooks/cs1_eda.ipynb
