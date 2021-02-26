@@ -55,13 +55,12 @@ Because of the difference in size in the two datasets a fair amount of playlist 
 | 2. Non-Unique artists in playlist (line count = # of tracks)         | 67503 |
 | 3. Features by artist (kaggle set)             | 32539 |
 | 4. Artists by playlist with features (joined 2+3)          | 56945 |
-| 5. Playlist by average feature (line count = # of playlists) (aggregate of 4)        | 865
- |
+| 5. Playlist by average feature (line count = # of playlists) (aggregate of 4)        | 865 |
 
 
 
 ## Additional Notes on Data Cleaning
-A large portion of data cleaning involved making the dataset joining process as smooth as possible, this included type casting to columns in pyspark as well as numerous seperate SQL table creations for easy plotting. To see the full list of data importing and sparkSQL manipulation I highly encourage you to take a look at the [sql_eda notebook](notebooks/sql_eda.ipynb).
+A large portion of data cleaning involved making the dataset joining process as smooth as possible, this included type casting to columns in pyspark as well as numerous seperate SQL table creations for easy plotting. To see the full list of data importing and sparkSQL manipulation I highly encourage you to take a look at the [create dataframes notebook](notebooks/create_dataframes.ipynb).
 
 Another piece of data cleaning that is important to mention is the fact that many artist names contain special character and formatting, to get around this issue I converted the artist names to raw strings prior to joining the data.
 ## Distribution of Features by Artist
